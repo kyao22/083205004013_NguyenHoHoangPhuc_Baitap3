@@ -195,7 +195,7 @@ fun StartedFirst(navController: NavHostController) {
         ) {
             Text(
                 text = "Next",
-                fontFamily = FontFamily.Default,
+                fontFamily = poppinsMediumFont,
                 fontWeight = FontWeight.Bold,
                 fontSize = 20.sp,
                 lineHeight = 25.sp
@@ -310,7 +310,7 @@ fun StartedSecond(navController: NavHostController) {
             ) {
                 Text(
                     text = "Next",
-                    fontFamily = FontFamily.Default,
+                    fontFamily = poppinsMediumFont,
                     fontWeight = FontWeight.Bold,
                     fontSize = 20.sp,
                     lineHeight = 25.sp
@@ -425,8 +425,8 @@ fun StartedThird(navController: NavHostController) {
                 modifier = Modifier.weight(1f).height(48.dp)
             ) {
                 Text(
-                    text = "Next",
-                    fontFamily = FontFamily.Default,
+                    text = "Get Started",
+                    fontFamily = poppinsMediumFont,
                     fontWeight = FontWeight.Bold,
                     fontSize = 20.sp,
                     lineHeight = 25.sp
