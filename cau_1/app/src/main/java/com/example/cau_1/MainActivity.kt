@@ -485,7 +485,6 @@ fun TextDetail (navController: NavHostController) {
     }
 }
 
-
 @Composable
 fun ImageDetail (navController: NavHostController) {
     Column(
